@@ -10,16 +10,10 @@
 }
 
 .content {    
+  display: flex;
+  flex-direction: column;
   margin-top: 0;
-  margin-left: calc(1600px - 99%);
-  width: 1200px;
+  width: 800px;
+  padding-left: 300px;
   /* box-shadow: 0 0 50px 30px #050923; */
-}
-
-.left-button {
-  margin-right: 15px;
-}
-
-.right-button {
-  margin-left: 15px;
 }
