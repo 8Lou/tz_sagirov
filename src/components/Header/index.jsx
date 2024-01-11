@@ -1,20 +1,24 @@
 import React from "react";
-import logo from "../img/logo.svg";
+// import logo from "../img/logo.svg";
+import { ReactComponent as Logo } from './logo.svg';
+import "./style.css";
 
 const Header = () => {
     return (
-        <div>
-            <img src={logo} alt="Логотип" />
-            <div>
-                <p>Главная</p>
-                <p>Технологии</p>
-                <p>График полетов</p>
-                <p>Гарантии</p>
-                <p>О компании</p>
-                <p>Контакты</p>
-            </div>
-            <h1>Menu</h1>
-        </div>
+        <header className="header">
+            <nav className="navbar">
+                <Logo className="logo" />
+                {/* <img src={logo} alt="Логотип" /> */}
+                <ul className="nav-menu">
+                    <li className="nav-item"><a href="/home" className="nav-link">Главная</a></li>
+                    <li className="nav-item"><a href="/about" className="nav-link">Технологии</a></li>
+                    <li className="nav-item"><a href="/about" className="nav-link">График полетов</a></li>
+                    <li className="nav-item"><a href="/about" className="nav-link">Гарантии</a></li>
+                    <li className="nav-item"><a href="/about" className="nav-link">О компании</a></li>
+                    <li className="nav-item"><a href="/about" className="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
     );
 };
 
