@@ -2,12 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Button = styled.button`
-display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 100px;
   height: 100px;
-  color: white;
+  color: #ababab;  
+  font-weight: 600;
   background-color: transparent;
   border: none;
   padding: 10px 20px;
@@ -24,9 +25,10 @@ display: flex;
     font-size: 40px;
   }
   .small-text {
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: lighter;
     color: #ababab;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
   }
 `;
 
@@ -36,10 +38,16 @@ const ButtonText = styled.div`
   align-items: center;
   text-align: center;
 `;
+const Text = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 0;
+`;
 
 function MyComp() {
     return (
-        <div>
+        <div className='buttons'>
             <Button>
                 <ButtonText>
                     <span className="small-text">мы</span>
@@ -57,7 +65,10 @@ function MyComp() {
             <Button>
                 <ButtonText>
                     <span className="small-text">календарик за</span>
-                    <span className="big-text">2001г.</span>
+                    <Text>
+                        <span className="big-text">2001</span>
+                        <span className="small-text">г.</span>
+                    </Text>
                     <span className="small-text">в подарок</span>
                 </ButtonText>
             </Button>

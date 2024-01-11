@@ -18,3 +18,8 @@ body {
     font-weight: 400;
     line-height: 1;
 }
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
