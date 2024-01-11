@@ -1,14 +1,13 @@
+import React from 'react';
+import Header from './components/Header'; 
 
-
-function App() {
+const App = () => {
   return (
-    <div className="">
-      <p>
-        horisontal_slider_demo
-      </p>
+     <div className="">
+      <Header />
       
     </div>
   );
-}
+};
 
 export default App;
