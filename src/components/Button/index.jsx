@@ -5,8 +5,8 @@ const Button = styled.button`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   color: #ababab;  
   font-weight: 600;
   background-color: transparent;
@@ -17,9 +17,9 @@ const Button = styled.button`
   margin: 10px;
 
   &:hover {
-    background: linear-gradient(rgba(255,255,255,0.02), rgba(255,255,255,0.3)); 
+    background: linear-gradient(rgba(255,255,255,0.01), rgba(255,255,255,0.2)); 
     transition: background 0.3s ease; 
-    border: 1px solid linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.7)); 
+    border: 1px solid linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.7)); 
 }
   .big-text {
     font-size: 40px;

@@ -13,16 +13,16 @@ function Main() {
 
     const SpaceButton = styled.button`
         color: #ababab; 
-        font-size: 12px;
+        font-size: 11px;
         width: 145px;
-        height: 30px;
+        height: 25px;
         background: transparent; 
         border: ,5px solid #3376ce;
         position: absolute;
         overflow: hidden;
         cursor: pointer;
         box-shadow: 0 0 5px #3376ce; 
-        margin-left: 100px;
+        margin: 40px 0 0 70px;
         z-index: 10;
   &:before {
         content: "";

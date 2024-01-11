@@ -20,7 +20,8 @@
 .nav-link:hover {
   color: #a29e9e;
   border-bottom: solid 1px #555; 
-  border-radius: 6px;
+  padding-bottom: 5px;
+  /* border-radius: 6px; */
 }
 .logo {
     height: 90px; 
