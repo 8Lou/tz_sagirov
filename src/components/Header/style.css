@@ -1,12 +1,13 @@
 .navbar {
   color: #fff; 
-  padding: 10px; 
+  padding: 0 70px; 
   display: flex;
   justify-content: space-between;
 }
 .nav-menu {
   list-style: none;
   display: flex;
+  font-size: 13px;
 }
 
 .nav-item {
@@ -21,7 +22,8 @@
 }
 
 .nav-link:hover {
-    border-bottom: solid 1px #555; 
+    color: #a29e9e;
+  border-bottom: solid 1px #555; 
   border-radius: 6px;
 }
 .logo {
