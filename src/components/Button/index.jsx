@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Button = styled.button`
+display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100px;
   height: 100px;
   color: white;
@@ -9,10 +12,11 @@ const Button = styled.button`
   border: none;
   padding: 10px 20px;
   border-radius: 1px;
-  cursor: pointer;
+  cursor: pointer;  
+  margin: 10px;
 
   &:hover {
-    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.3)); 
+    background: linear-gradient(rgba(255,255,255,0.02), rgba(255,255,255,0.3)); 
     transition: background 0.3s ease; 
     border: 1px solid linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.7)); 
 }

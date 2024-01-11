@@ -9,6 +9,7 @@ html {
 html,
 body{
     height: 100%;
+    margin: 0 100px;
 }
 body {
     background: #010D19; 
