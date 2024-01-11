@@ -13,7 +13,6 @@ function Main() {
         <main className="main">
             <div className="content">
                 <Button text={buttonText} onClick={handleClick} />
-                <div className="left-button">Левая кнопка</div>
                 <img className="image" src={Bunner} alt="Картинка" />
                 <Button text={buttonText} onClick={handleClick} />
             </div>
