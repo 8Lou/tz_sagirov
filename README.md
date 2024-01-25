@@ -1,5 +1,6 @@
-# Stack
-Getting Started with Create React App
+# https://8lou.github.io/tz_sagirov/
+
+## Getting Started with Create React App
 
 ### `npm i`
 
@@ -7,8 +8,5 @@ Getting Started with Create React App
 
 ### `npm install styled-components`
 
-# `npm install -g gh-pages`
-# `npm install gh-pages --save-dev`
-
- 
-    "homepage": "https://8Lou.github.io/tz_sagirov",
+## `npm install -g gh-pages`
+## `npm install gh-pages --save-dev`
